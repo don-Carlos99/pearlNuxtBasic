@@ -22,7 +22,7 @@
                             </div>
                             <form name="reset" class="py-5 my-md-5">
                                 <div class="form-group"><input type="email" placeholder="Email" class="form-control"
-                                        required=""></div><button type="submit"
+                                        ></div><button type="submit"
                                     class="btn btn-primary btn-block">Send</button>
                             </form>
                             <div class="pt-1">Return to <a href="signin.1.html" class="text-primary font-weight-bold"
@@ -32,7 +32,5 @@
                 </div>
             </div>
         </div>
-        <script src="@/assets/js/site.min.js"></script>
-        <!-- Mirrored from flatfull.com/themes/basik/html/forgot-password.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 15 Sep 2019 18:37:43 GMT -->
     </div>
 </template>

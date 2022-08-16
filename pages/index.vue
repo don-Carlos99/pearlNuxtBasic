@@ -2,7 +2,7 @@
 <div>
         <body>
     <header id="header" class="page-header p-2 bg-white bg-body sticky" data-class="bg-body">
-        <div class="navbar navbar-expand-lg"><a href="index-2.html" class="navbar-brand" data-pjax-state=""><svg width="32" height="32" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><g class="loading-spin" style="transform-origin: 256px 256px"><path d="M200.043 106.067c-40.631 15.171-73.434 46.382-90.717 85.933H256l-55.957-85.933zM412.797 288A160.723 160.723 0 0 0 416 256c0-36.624-12.314-70.367-33.016-97.334L311 288h101.797zM359.973 134.395C332.007 110.461 295.694 96 256 96c-7.966 0-15.794.591-23.448 1.715L310.852 224l49.121-89.605zM99.204 224A160.65 160.65 0 0 0 96 256c0 36.639 12.324 70.394 33.041 97.366L201 224H99.204zM311.959 405.932c40.631-15.171 73.433-46.382 90.715-85.932H256l55.959 85.932zM152.046 377.621C180.009 401.545 216.314 416 256 416c7.969 0 15.799-.592 23.456-1.716L201.164 288l-49.118 89.621z"></path></g></svg> <span class="hidden-folded d-inline l-s-n-1x">Basik</span></a>
+        <div class="navbar navbar-expand-lg"><NuxtLink to="/nav/main/dashboard" class="navbar-brand" data-pjax-state=""><svg width="32" height="32" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><g class="loading-spin" style="transform-origin: 256px 256px"><path d="M200.043 106.067c-40.631 15.171-73.434 46.382-90.717 85.933H256l-55.957-85.933zM412.797 288A160.723 160.723 0 0 0 416 256c0-36.624-12.314-70.367-33.016-97.334L311 288h101.797zM359.973 134.395C332.007 110.461 295.694 96 256 96c-7.966 0-15.794.591-23.448 1.715L310.852 224l49.121-89.605zM99.204 224A160.65 160.65 0 0 0 96 256c0 36.639 12.324 70.394 33.041 97.366L201 224H99.204zM311.959 405.932c40.631-15.171 73.433-46.382 90.715-85.932H256l55.959 85.932zM152.046 377.621C180.009 401.545 216.314 416 256 416c7.969 0 15.799-.592 23.456-1.716L201.164 288l-49.118 89.621z"></path></g></svg> <span class="hidden-folded d-inline l-s-n-1x">Basik</span></NuxtLink>
             <div class="collapse navbar-collapse order-2 order-lg-1" id="navbarToggler">
                 <ul class="navbar-nav" data-nav="">
                     <li class="nav-item"><a href="#categories" class="nav-link" data-pjax-state=""><span class="nav-text">Categories</span></a></li>
@@ -43,15 +43,15 @@
                         <div class="row">
                             <div class="col-6 col-md-4 my-4"><span class="text-muted">.01</span>
                                 <h5 class="my-3 text-highlight">Admin</h5>
-                                <a href="html/dashboard.html" ><img src="@/assets/img/_a.png" class="w-100 no-radius" alt="Admin"></a>
+                                <NuxtLink to="/nav/main/dashboard" ><img src="@/assets/img/_a.png" class="w-100 no-radius" alt="Admin"></NuxtLink>
                             </div>
                             <div class="col-6 col-md-4 my-4"><span class="text-muted">.02</span>
                                 <h5 class="my-3 text-highlight">Music</h5>
-                                <a href="html/music.html"><img src="@/assets/img/_music.png" class="w-100 no-radius" alt="music"></a>
+                                <NuxtLink to="html/music.html"><img src="@/assets/img/_music.png" class="w-100 no-radius" alt="music"></NuxtLink>
                             </div>
                             <div class="col-6 col-md-4 my-4"><span class="text-muted">.03</span>
                                 <h5 class="my-3 text-highlight">Video</h5>
-                                <a href="html/video.html"><img src="@/assets/img/_video.png" class="w-100 no-radius" alt="video"></a>
+                                <NuxtLink to="html/video.html"><img src="@/assets/img/_video.png" class="w-100 no-radius" alt="video"></NuxtLink>
                             </div>
                         </div>
                     </div>
@@ -89,27 +89,27 @@
                         <div class="row">
                             <div class="col-4 list-item mb-4">
                                 <div class="browser">
-                                    <div class="media-action"><a href="html/dashboard.html" class="btn btn-rounded btn-dark">Dashboard</a></div><img src="@/assets/img/_c.png" class="w-100 no-radius" alt="Dashboard"></div>
+                                    <div class="media-action"><NuxtLink to="/nav/main/dashboard" class="btn btn-rounded btn-dark">Dashboard</NuxtLink></div><img src="@/assets/img/_c.png" class="w-100 no-radius" alt="Dashboard"></div>
                             </div>
                             <div class="col-4 list-item mb-4">
                                 <div class="browser">
-                                    <div class="media-action"><a href="html/app.calendar.html" class="btn btn-rounded btn-dark">Calendar</a></div><img src="@/assets/img/_d.png" class="w-100 no-radius" alt="Calendar"></div>
+                                    <div class="media-action"><NuxtLink to="/nav/application/calender" class="btn btn-rounded btn-dark">Calendar</NuxtLink></div><img src="@/assets/img/_d.png" class="w-100 no-radius" alt="Calendar"></div>
                             </div>
                             <div class="col-4 list-item mb-4">
                                 <div class="browser">
-                                    <div class="media-action"><a href="html/app.user.html" class="btn btn-rounded btn-dark">User</a></div><img src="@/assets/img/_e.png" class="w-100 no-radius" alt="User"></div>
+                                    <div class="media-action"><NuxtLink to="/nav/application/user" class="btn btn-rounded btn-dark">User</NuxtLink></div><img src="@/assets/img/_e.png" class="w-100 no-radius" alt="User"></div>
                             </div>
                             <div class="col-4 list-item mb-4">
                                 <div class="browser">
-                                    <div class="media-action"><a href="html/app.message.html" class="btn btn-rounded btn-dark">Message</a></div><img src="@/assets/img/_f.png" class="w-100 no-radius" alt="Message"></div>
+                                    <div class="media-action"><NuxtLink to="/nav/application/message" class="btn btn-rounded btn-dark">Message</NuxtLink></div><img src="@/assets/img/_f.png" class="w-100 no-radius" alt="Message"></div>
                             </div>
                             <div class="col-4 list-item mb-4">
                                 <div class="browser">
-                                    <div class="media-action"><a href="html/app.mail.html" class="btn btn-rounded btn-dark">Email</a></div><img src="@/assets/img/_g.png" class="w-100 no-radius" alt="Email"></div>
+                                    <div class="media-action"><NuxtLink to="/nav/application/email" class="btn btn-rounded btn-dark">Email</NuxtLink></div><img src="@/assets/img/_g.png" class="w-100 no-radius" alt="Email"></div>
                             </div>
                             <div class="col-4 list-item mb-4">
                                 <div class="browser">
-                                    <div class="media-action"><a href="html/page.profile.html" class="btn btn-rounded btn-dark">Profile</a></div><img src="@/assets/img/_h.png" class="w-100 no-radius" alt="Invoice"></div>
+                                    <div class="media-action"><NuxtLink to="/nav/extra/pages/profile" class="btn btn-rounded btn-dark">Profile</NuxtLink></div><img src="@/assets/img/_h.png" class="w-100 no-radius" alt="Invoice"></div>
                             </div>
                         </div>
                     </div>
@@ -123,7 +123,7 @@
                 <div class="py-5 text-inherit text-hover-primary">
                     <div class="row">
                         <div class="col-12 col-sm-4">
-                            <div class="mb-5"><a href="index-2.html" class="navbar-brand"><svg width="48" height="48" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><g class="loading-spin" style="transform-origin: 256px 256px"><path d="M200.043 106.067c-40.631 15.171-73.434 46.382-90.717 85.933H256l-55.957-85.933zM412.797 288A160.723 160.723 0 0 0 416 256c0-36.624-12.314-70.367-33.016-97.334L311 288h101.797zM359.973 134.395C332.007 110.461 295.694 96 256 96c-7.966 0-15.794.591-23.448 1.715L310.852 224l49.121-89.605zM99.204 224A160.65 160.65 0 0 0 96 256c0 36.639 12.324 70.394 33.041 97.366L201 224H99.204zM311.959 405.932c40.631-15.171 73.433-46.382 90.715-85.932H256l55.959 85.932zM152.046 377.621C180.009 401.545 216.314 416 256 416c7.969 0 15.799-.592 23.456-1.716L201.164 288l-49.118 89.621z"></path></g></svg> <span class="hidden-folded d-inline l-s-n-1x">Basik</span></a></div>
+                            <div class="mb-5"><NuxtLink to="/nav/main/dashboard" class="navbar-brand"><svg width="48" height="48" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><g class="loading-spin" style="transform-origin: 256px 256px"><path d="M200.043 106.067c-40.631 15.171-73.434 46.382-90.717 85.933H256l-55.957-85.933zM412.797 288A160.723 160.723 0 0 0 416 256c0-36.624-12.314-70.367-33.016-97.334L311 288h101.797zM359.973 134.395C332.007 110.461 295.694 96 256 96c-7.966 0-15.794.591-23.448 1.715L310.852 224l49.121-89.605zM99.204 224A160.65 160.65 0 0 0 96 256c0 36.639 12.324 70.394 33.041 97.366L201 224H99.204zM311.959 405.932c40.631-15.171 73.433-46.382 90.715-85.932H256l55.959 85.932zM152.046 377.621C180.009 401.545 216.314 416 256 416c7.969 0 15.799-.592 23.456-1.716L201.164 288l-49.118 89.621z"></path></g></svg> <span class="hidden-folded d-inline l-s-n-1x">Basik</span></NuxtLink></div>
                         </div>
                         <div class="col-12 col-sm-8">
                             <p class="l-h-2x mb-5 text-muted">Basik is a responsive bootstrap web application and customizable admin template that helps the developers build beautiful and functional web application fast and easy. It comes with four applications and lot of useful components
@@ -132,28 +132,28 @@
                                 <div class="col-6 col-md-4">
                                     <h5 class="mb-3 text-muted">Applications</h5>
                                     <ul class="list-unstyled l-h-2x">
-                                        <li><a href="html/app.calendar.html">Calendar</a></li>
-                                        <li><a href="html/app.mail.html">Email</a></li>
-                                        <li><a href="html/app.message.html">Message</a></li>
-                                        <li><a href="html/app.user.html">User management</a></li>
-                                        <li><a href="html/page.invoice.html">Invoice</a></li>
-                                        <li><a href="html/page.search.html">Search</a></li>
-                                        <li><a href="html/page.faq.html">FAQ</a></li>
+                                        <li><NuxtLink to="/nav/application/calender">Calendar</NuxtLink></li>
+                                        <li><NuxtLink to="/nav/application/email">Email</NuxtLink></li>
+                                        <li><NuxtLink to="/nav/application/message">Message</NuxtLink></li>
+                                        <li><NuxtLink to="/nav/application/user">User management</NuxtLink></li>
+                                        <li><NuxtLink to="/nav/extra/pages/invoice">Invoice</NuxtLink></li>
+                                        <li><NuxtLink to="/nav/extra/pages/search">Search</NuxtLink></li>
+                                        <li><NuxtLink to="/nav/extra/pages/faq">FAQ</NuxtLink></li>
                                     </ul>
                                 </div>
                                 <div class="col-6 col-md-4">
                                     <h5 class="mb-3 text-muted">Help</h5>
                                     <ul class="list-unstyled l-h-2x">
-                                        <li><a href="docs/index.html">Documentation</a></li>
-                                        <li><a href="docs/changelog.html">Changelog</a></li>
-                                        <li><a href="docs/changelog.html">Update</a></li>
+                                        <li><NuxtLink to="docs/index.html">Documentation</NuxtLink></li>
+                                        <li><NuxtLink to="docs/changelog.html">Changelog</NuxtLink></li>
+                                        <li><NuxtLink to="docs/changelog.html">Update</NuxtLink></li>
                                     </ul>
                                 </div>
                                 <div class="col-6 col-md-4">
                                     <h5 class="mb-3 text-muted">Follow us</h5>
                                     <ul class="list-unstyled l-h-2x">
-                                        <li><a href="https://dribbble.com/flatfull">Dribbble</a></li>
-                                        <li><a href="https://themeforest.net/user/flatfull">Themeforest</a></li>
+                                        <li><a>Dribbble</a></li>
+                                        <li><a>Themeforest</a></li>
                                     </ul>
                                 </div>
                             </div>

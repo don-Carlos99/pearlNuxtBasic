@@ -82,7 +82,5 @@
         <div class="text-center text-muted">© Copyright. Basik</div>
       </div>
     </div>
-    <script src="@/assets/js/site.min.js"></script>
-    <!-- Mirrored from flatfull.com/themes/basik/html/signup.1.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 15 Sep 2019 18:37:43 GMT -->
   </div>
 </template>
