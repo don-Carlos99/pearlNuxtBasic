@@ -1,4 +1,5 @@
 export default {
+  ssr: false,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'pearlNuxtBasic',
@@ -28,15 +29,15 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    {src:'@/libs/jq.js',mode:'client'},
-    {src:'@/libs/popper.js',mode:'client'},
-    {src:'@/libs/bs.js',mode:'client'},
-    {src:'@/libs/bstable.js',mode:'client'},
-    {src:'@/libs/moment.js',mode:'client'},
-    {src:'@/libs/charts.js',mode:'client'},
-    {src:'@/libs/fullscreen.js',mode:'client'},
-    {src:'@/libs/calender.js',mode:'client'},
-    {src:'@/libs/anime.js',mode:'client'},
+    // {src:'@/libs/jq.js',mode:'client'},
+    // {src:'@/libs/popper.js',mode:'client'},
+    // {src:'@/libs/bs.js',mode:'client'},
+    // {src:'@/libs/bstable.js',mode:'client'},
+    // {src:'@/libs/moment.js',mode:'client'},
+    // {src:'@/libs/charts.js',mode:'client'},
+    // {src:'@/libs/fullscreen.js',mode:'client'},
+    // {src:'@/libs/calender.js',mode:'client'},
+    // {src:'@/libs/anime.js',mode:'client'},
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
