@@ -14,6 +14,27 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script:[
+      // {type:'application/javascript',src:'/jq.js'},
+      // {type:'application/javascript',src:'/popper.js'},
+      // {type:'application/javascript',src:'/bs.js'},
+      // {type:'application/javascript',src:'/moment.js'},
+      // {type:'application/javascript',src:'/fullscreen.js'},
+      // {type:'application/javascript',src:'/charts.js'},
+      // {type:'application/javascript',src:'/anime.js'},
+      // {type:'application/javascript',src:'/bstable.js'},
+      // {type:'application/javascript',src:'/calender.js'},
+      // {type:'application/javascript',src:'/infiniteScroll.js'},
+      {type:'application/javascript',src:'/site.min.js'},
+      // {type:'application/javascript',src:''},
+      // {type:'application/javascript',src:''},
+      // {type:'application/javascript',src:''},
+      // {type:'application/javascript',src:''},
+      // {type:'application/javascript',src:''},
+      // {type:'application/javascript',src:''},
+      // {type:'application/javascript',src:''},
+      // {type:'application/javascript',src:''},
     ]
   },
 
@@ -29,11 +50,13 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    // {src:'@/assets/js/site.min.js',mode:'client'},
     // {src:'@/libs/jq.js',mode:'client'},
     // {src:'@/libs/popper.js',mode:'client'},
     // {src:'@/libs/bs.js',mode:'client'},
     // {src:'@/libs/bstable.js',mode:'client'},
-    // {src:'@/libs/moment.js',mode:'client'},
+    // {src:'~/plugins/test.js',mode:'server'},
+    // {src:'~/plugins/moment.js',mode:'client'},
     // {src:'@/libs/charts.js',mode:'client'},
     // {src:'@/libs/fullscreen.js',mode:'client'},
     // {src:'@/libs/calender.js',mode:'client'},
